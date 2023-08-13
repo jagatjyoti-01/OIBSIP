@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jyoti fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* css reset */
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('bgimg.jpg');
+            color: white;
+            height: 120px;
+            
+            
+            /* font-family:cursive; */
+
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 22px;
+            top: 5px;
+
+        }
+
+        .mid {
+            /* border: 2px solid red; */
+            display: block;
+            width: 33%;
+            margin: 6px auto;
+
+
+        }
+
+        .right {
+            /* border: 2px solid red; */
+            position: absolute;
+            right: 23px;
+            top: 10px;
+            
+        }
+
+        .left img {
+            width: 45px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: absolute;
+            width: 50px;
+            font-size: 10px;
+        }
+
+        .navbar {
+            display: inline-block;
+            width: 462px;
+            height: 9px;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 8px;
+            font-size: 17px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .btn {
+            margin: 8px 5px;
+            padding: 6px 10px;
+            background-color: rgb(14, 178, 228);
+            color: rgb(0, 0, 0);
+            border: 2px solid gray;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: gray;
+        }
+
+        .contener {
+            border: 2px solid red;
+        }
+
+        .con {
+            border: 2px solid rgb(126, 228, 139);
+            margin: 170px 66px;
+            padding: 21px 30px;
+            width: 400px;
+            border-radius: 18px;
+        }
+        .con h1{
+            text-align: center;
+            color: aqua;
+        }
+
+        .formgroup input {
+            text-align: center;
+            border: 2px solid black;
+            padding: -4px;
+            display: block;
+            margin: 5px auto;
+            width: 310px;
+            padding: 2px;
+            font-size: 17px;
+            border-radius: 15px;
+        }
+    .con button{
+        display: block;
+        width: 70px;
+        margin: auto;
+    }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- this is only for logo -->
+        <div class="left">
+            <img src="woman-3087521_960_720.png" alt="">
+            <div>jyoti fitness</div>
+        </div>
+        <!-- this is only for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="a" class="active">Home</a></li>
+                <li><a href="a">about us</a></li>
+                <li><a href="a">fitness calculater</a></li>
+                <li><a href="a">contact us</a></li>
+            </ul>
+
+        </div>
+        <!-- this is only for search -->
+        <div class="right">
+            <button class="btn">contact us</button>
+            <button class="btn"> email us</button>
+        </div>
+    </header>
+    <div class="con">
+        <h1>join the best gym delhi now</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="enter your age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="enter your locality">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

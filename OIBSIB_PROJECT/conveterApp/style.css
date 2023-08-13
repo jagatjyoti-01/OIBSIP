@@ -1,0 +1,42 @@
+.temp{
+  width: 500px;
+  height: 300px;
+  margin: 90px auto;
+  /* background-color: rgb(216, 251, 240); */
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px rgb(117, 219, 245);
+}
+h1{
+    align-items: center;
+    margin: 0px 20px;
+}
+.tempform{
+
+}
+.tempform input{
+    width: 170px;
+    height: 40px;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+.tempform select{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.res input{
+    width: 170px;
+    height: 40px;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+.convert .button{
+width: 170px;
+height: 40px;
+margin: 10px 150px;
+border-radius: 10px;
+background-color: rgb(62, 191, 196);
+
+
+}
